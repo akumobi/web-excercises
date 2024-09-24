@@ -8,3 +8,24 @@ section{
     margin: 25px auto;
     border: 10px solid blue;
 }
+section:first-of-type{
+    background-image: linear-gradient(90deg,#1b7339 33.3%, white 33.3%,white 66.6%, #1b7339 66.6%);
+}
+section:nth-of-type(2){
+    background-image: radial-gradient(circle, #bc002d 20%, white 20%);
+}
+section:nth-of-type(3){
+    background-image: linear-gradient(180deg,#ce1126 33.3%, white 33.3%,white 37%,#0c1c8c 37%, #0c1c8c 62.9%, white 62.9%, white 66.6%, #3a7728 66.6%);
+}
+section:nth-of-type(4){
+    background-image: linear-gradient(90deg,#009E60 33.3%, #FCD116 33.3%,#FCD116 66.6%, #4664b2 66.6%);
+}
+section:nth-of-type(5){
+    background-image: linear-gradient(90deg,#002654 33.3%, #ffffff 33.3%,#Ffffff 66.6%, #ed2939 66.6%);
+}
+section:nth-of-type(6){
+    background-image: linear-gradient(90deg,#000000 33.3%, #ffcd00 33.3%,#Ffcd00 66.6%, #c8102e 66.6%);
+}
+section:last-of-type{
+    background-image: linear-gradient(180deg,#000000 33.3%, #dd0000 33.3%, #dd0000 66.6%, #ffce00 66.6%);
+}
