@@ -1,8 +1,32 @@
-html {
-  font-family: sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
+
+html {
+  font-family: "Satisfy", cursive;
+  align-items: center;
+}
+body{
+  width: auto;
+  margin: auto;
+}
+h1{
+  color: #ffffff;
+  text-shadow: 2px 2px #000000;
+  width: 15%;
+  margin: 20px auto;
+  text-align: center;
+  border-block: 5px dashed rgb(7, 54, 7);
+  border-start-end-radius: 50px;
+  border-end-start-radius: 50px;
+  border-end-end-radius: 50px;
+  border-start-start-radius: 50px;
+  background-image: linear-gradient(90deg, green 50%, yellowgreen 50%);
+  background-clip: border-box;
+
+}
 table {
+  width: 80%;
+  margin: auto;
   border-collapse: collapse;
   border: 2px solid rgb(200,200,200);
   letter-spacing: 1px;
@@ -24,6 +48,15 @@ td {
 
 tr:nth-child(even) td {
   background-color: rgb(250,250,250);
+  }
+
+tr:nth-child(even) td:nth-of-type(n) {
+    border: 2px solid #000000;
+    border-inline: 2px solid transparent;
+}
+
+tr:nth-child(even) td:last-of-type {
+  border-inline-end: 2px solid black;
 }
 
 tr:nth-child(odd) td {
@@ -32,4 +65,24 @@ tr:nth-child(odd) td {
 
 caption {
   padding: 10px;
+  font-weight: lighter;
+  font-size: medium;
+}
+
+.blackborder {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+#bottomborder{
+  border-bottom: 2px solid black;
+}
+
+#topborder{
+  border-top: 2px solid black;
+}
+
+tbody tr td:nth-of-type(odd){
+  background-color: yellowgreen;
+  background-image: linear-gradient(90deg, #b6e951 10%, #fafafa 45%, yellow 85%);
 }
